@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bon Coin - Louez votre voiture préférée</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">LOATION DE VOITURE</h3>
+          <p class="text">
+            Bienvenue chez Bon Coin, votre premier service de location de voitures à Tanger !<br>
+            nous disposons d'un large choix de véhicules adaptés à vos besoins.<br>
+            Contactez-nous dès aujourd'hui pour réserver votre voiture préférée et vivre un voyage sans tracas avec Bon Coin.
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <p>N° 3 RES NOUR BNI OURIAGHE L TANGER، 90000</p>
+            </div>
+            <div class="information">
+              <p>06 60 09 77 77</p>
+            </div>
+            <div class="information">
+              <p></p>
+            </div>
+          </div>
+
+      
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://formspree.io/f/manwwvod" method="POST" >
+            <h3 class="title">BON COIN</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" required/>
+              <label for="">Nom et prénom</label>
+              <span>Nom et prénom</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" required/>
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" required/>
+              <label for="">Téléphone</label>
+              <span>Téléphone</span>
+            </div>
+
+            <div class="input-container">
+              <input type="datetime" name="Date-Pick" class="input" required/>
+              <label for="">Date de ramassage</label>
+              <span>Date de ramassage</span>
+            </div>
+
+            <div class="input-container">
+              <input type="datetime" name="Date-dépot" class="input" required/>
+              <label for="">Date de dépôt</label>
+              <span>Date de dépôt</span>
+            </div>
+
+
+            <div class="input-container">
+              <select name="voiture" class="input" required>
+                <option value="" disabled selected></option>
+                <option value="DACIA-LOGAN-NEW-2024">DACIA LOGAN NEW 2024</option>
+                <option value="DACIA-DUSTER-2024">DACIA DUSTER 2024</option>
+                <option value="DACIA-LOGAN">DACIA LOGAN</option>
+                <option value="DACIA-SANDERO">DACIA SANDERO</option>
+                <option value="CLIO4">RENAULT CLIO 4</option>
+                <option value="CLIO5">RENAULT CLIO 5</option>
+                
+              </select>
+              <label for="">Voiture</label>
+              <span>Voiture</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
